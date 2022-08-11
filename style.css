@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(Roboto-BoldItalic.ttf);
+}
+
+#main {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 50%;
+    height: 450px;
+    border-radius: 5%;
+    padding: 30px;
+    margin: 30px auto;
+}
+
+.heading {
+    font-family: roboto;
+    text-align: center;
+    margin-top: 35px;
+    border-bottom: 2px green solid;
+    color: rgb(158, 147, 147);
+}
+
+.account {
+    display: flex;
+}
+
+.logo>img {
+    width: 25px;
+    height: 25px;
+    margin-top: 8px
+}
+
+.name {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.textarea1 {
+    margin: 10px 40px;
+}
+
+.textarea1>textarea {
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.next {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.next>input {
+    background-color: green;
+    color: white;
+    font-size: larger;
+    width: 80px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 8px 5px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid rgb(158, 147, 147);
+}
+
+.next>input:active {
+    background-color: rgb(158, 147, 147);
+    color: green;
+    border: 2px solid white;
+}
+
+
+.colors {
+    display: flex;
+}
+
+.lightgreen>img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#second-main {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 50%;
+    height: 250px;
+    border-radius: 5%;
+    padding: 30px;
+    margin: 100px auto;
+    display: none;
+}
+
+#output {
+    border: 1px solid black;
+    font-family: sans-serif;
+    padding:20px 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 20px;
+font-weight: bold;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin-top: 20px;
+  margin-left: 25%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.like{
+    display: flex;
+    border: 2px solid green;
+    padding: 4px;
+}
+.like>img {
+    width: 25px;
+    height: 25px;
+}
+.like>p {
+    padding-top: 4px;
+}
+
+#share {
+    width: 20px;
+    height: 20px;
+    padding-left: 4px;
+    padding-top: 3px;
+}
